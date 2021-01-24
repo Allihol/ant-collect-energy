@@ -153,8 +153,8 @@ export default {
           // 重置移动相关参数
           this.isMoving = false
           this.moveTarget = null
-          this.targetIndex = null
           this.circleArr.splice(this.targetIndex, 1) // 删除移动完成的点
+          this.targetIndex = null
         }
       }
     },
